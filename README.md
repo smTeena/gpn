@@ -1,7 +1,8 @@
-# GPN (Genomic Pre-trained Network)
-[![hgt_genome_392c4_a47ce0](https://github.com/user-attachments/assets/282b6204-156b-4b6d-83ff-2f4a53a9bb2e)](https://genome.ucsc.edu/s/gbenegas/gpn-arabidopsis)
- 
-Code and resources for genomic language models [GPN](https://doi.org/10.1073/pnas.2311219120), [GPN-MSA](https://www.nature.com/articles/s41587-024-02511-w), [PhyloGPN](https://link.springer.com/chapter/10.1007/978-3-031-90252-9_7) and [GPN-Star](https://doi.org/10.1101/2025.09.21.677619).
+This REPO is a branch of the original GPN work and code. I used it to adapt their model training technique on a multiple sequence alignment of the [Primate Diversity Panel](https://pure.au.dk/portal/en/datasets/primate-diversity-panel/) recently [published](https://link.springer.com/article/10.1186/s13059-026-04286-6) by Vasili Pankratov and other great researchers at Bioinformatics Research Center of Aarhus University. 
+
+This work was one of the main aspects of my master's thesis "The relationship between evolutionary constraint and genetic diversity across primate genomes". This study aims to explore genomic diversity using heterozygosity estimates from 219 non-human primates calculated across 100kb genomic windows, together with evolutionary constraint, using conservation scores derived from a 49-species whole-genome alignment, to test whether evolutionary constraint predicts patterns of genetic diversity across primate species.
+
+The evolutionary constraint across the primate genome was first quantified using PhastCons and PhyloP scores which were then used to train the phylogeny aware genomic language model [GPN-Star](https://doi.org/10.1101/2025.09.21.677619) as an alternative and non-parametric approach of estimating evolutionary constraint from the same 49-species whole-genome alignment.
 
 ## Table of contents
 - [Installation](#installation)
